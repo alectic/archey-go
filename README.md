@@ -134,7 +134,7 @@ Don't show GTK2 cursor theme name. The cursor theme name is read the same way GT
 Don't show GTK3 theme name. The GTK3 theme name is read from ```$HOME/.config/gtk-3.0/settings.ini```, if it doesn't exist it's read from ```/etc/gtk-3.0/settings.ini```. If neither one of them exists, _**None**_ is displayed.
 
 ```
---no-gtk3-icons-theme
+--no-gtk3-icon-theme
 ```
 Don't show GTK3 icon theme name. The icon thene name is read the same way GTK3 theme name is.
 
