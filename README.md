@@ -6,6 +6,8 @@ Archey-go
 [![Platform](https://img.shields.io/badge/platform-Linux-5272b4.svg)](https://www.linuxfoundation.org/)
 [![License](https://img.shields.io/badge/license-MIT-5272b4.svg)](https://github.com/alexdreptu/archey-go/blob/master/LICENSE)
 
+#### Build is currently broken due to recent refactoring of the [sysinfo](https://github.com/alexdreptu/sysinfo) module upon which this depends. I'll refactor this as well soon.
+
 ## About
 
 _**Archey**_ is traditionally a _**Linux**_ tool for displaying system info in a pretty way on _**Arch Linux**_. It was originally written in _**Python 2**_ and then rewriten in _**Python 3**_. _**Archey-go**_ is written from scratch in _**[Go](https://golang.org)**_ and it compiles to a single statically linked binary. It's fast, it has no external dependencies and doesn't call any system utilities to gather the information. It also allows a decent amount of customization to satisfy your _**[unixporn](https://www.reddit.com/r/unixporn)**_ addiction.
